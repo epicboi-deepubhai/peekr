@@ -4,16 +4,16 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔎 Search for files or directories by name pattern
-- 🕒 Filter by last accessed time (in days)
-- 📂 Limit search depth
-- 📁 Choose between file or directory matches
+-  Search for files or directories by name pattern
+-  Filter by last accessed time (in days)
+-  Limit search depth
+-  Choose between file or directory matches
 
 ---
 
-## 📦 Usage
+##  Usage
 
 ```bash
 python peekr.py [options] [search_directory]
@@ -23,7 +23,7 @@ If search_directory is not provided, it defaults to the current directory (.).
 
 ---
 
-## ⚙️ Options
+## ️ Options
 
 |Option | Description |
 |---|---|
@@ -34,7 +34,7 @@ If search_directory is not provided, it defaults to the current directory (.).
 
 ---
 
-## 🧪 Examples
+##  Examples
 - Find all .py files in the current directory:
     ```bash
     python peekr.py -n "*.py"
