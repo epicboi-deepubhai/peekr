@@ -20,7 +20,7 @@ def parse_options(args):
     options = {
         "name": None,
         "atime": None,
-        "type": True,
+        "type": 'f',
         "maxdepth": 1,
         "search_dir": '.'
     }
